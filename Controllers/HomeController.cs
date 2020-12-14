@@ -29,7 +29,7 @@ namespace FriendLetter.Controllers
       LetterVariable myLetterVariable = new LetterVariable();
       myLetterVariable.Recipient = recipient;
       myLetterVariable.Sender = sender;
-      
+
       return View(myLetterVariable);
     }
   }
